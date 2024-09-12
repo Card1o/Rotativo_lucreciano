@@ -1,5 +1,22 @@
 <?php include("includes/header.php"); ?>
 
+
+<?php
+    session_start();
+
+    if(!isset($_SESSION['login'])){
+        echo'
+            <script>
+                alert("Inicia sesión");
+                window.location = "index.php";
+            </script>
+        ';
+        header("Location: ../index.php");
+        session_destroy();
+        die();
+    }
+?>
+
     <div class="contenedor">
         <div class="formulario">
             <div class="tarjeta">
