@@ -1,0 +1,339 @@
+body{
+    background-image: url(../img/Fondo_Blanco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: #00aeff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #00eef7;
+}
+
+
+/* Estilo para la zona de incrustación de mensajes */
+.contenedor {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh; 
+    background-color: transparent;
+    margin: 0%;
+    padding: 0;
+}
+
+
+.tarjeta {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+
+.grupo {
+    margin-bottom: 15px;
+}
+
+
+.grupo input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.muestras{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    background-color: transparent;
+}
+
+/* La parte para insertar imagenes */
+
+.drop_area {
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom:10px ;
+}
+
+.drop_area:hover {
+    background-color: #f0f0f0;
+}
+
+.drop_area input[type="file"] {
+    display:flex; 
+}
+
+.drop_area::before {
+    text-align: center;
+}
+
+.drop_area.active {
+    background-color: #e0ffe0;
+    border-color: #00cc00;
+    color: #00cc00;
+}
+
+
+
+/* Estilo de la tabla */
+table {
+    width: 60%; 
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px; 
+    text-align: left; 
+}
+
+
+thead tr {
+    background-color: #4CAF50; 
+    color: white; 
+}
+
+
+thead th {
+    padding: 12px 15px; 
+    text-transform: uppercase; 
+}
+
+
+tbody td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer; 
+}
+
+#imagenes{
+    padding-left:41px;
+    display:inline-block;
+    transform:translatex(0px) translatey(0px) !important;
+    width:281px;
+   }
+
+/* Espacio para los botones */
+.Btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding: 0px 20px;
+    background-color: rgb(16, 138, 91);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px rgb(16, 138, 91);
+    transition-duration: .3s;
+  }
+  
+  .svg {
+    width: 13px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    fill: white;
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover {
+    color: transparent;
+  }
+  
+  .Btn:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+  }
+  
+  .Btn:active {
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px rgb(0, 223, 137);
+  }
+
+  .noselect {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    background: #e62222;
+   }
+   
+   .noselect, button span {
+    transition: 200ms;
+   }
+   
+   .noselect .text {
+    transform: translateX(20px);
+    color: white;
+    font-weight: bold;
+   }
+   
+   .noselect .icon {
+    position: absolute;
+    border-left: 1px solid #c41b1b;
+    transform: translateX(90px);
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .noselect svg {
+    width: 15px;
+    fill: #eee;
+   }
+   
+   .noselect:hover {
+    background: #ff3636;
+   }
+   
+   .noselect:hover .text {
+    color: transparent;
+   }
+   
+   .noselect:hover .icon {
+    width: 75px;
+    border-left: none;
+    transform: translateX(0);
+   }
+   
+   .noselect:focus {
+    outline: none;
+   }
+   
+   .noselect:active .icon svg {
+    transform: scale(0.8);
+   }
+
+/* Zona login */
+
+.login{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    margin: 10% 38%;
+}
+
+.login h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.input-login {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-login input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.guardador {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.guardador:hover {
+    background-color: #218838;
+}
