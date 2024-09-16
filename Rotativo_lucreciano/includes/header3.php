@@ -1,3 +1,5 @@
+  <?php include("administrador/bd.php"); ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -14,7 +16,7 @@
         <ul>
             <li><a href="index.php"><img src="img/Captura-removebg-preview.png" width="83.25"height="46.875"></a></li>
             <li><a href="Creditos.php">Quienes Somos</a></li>
-            <li><a href="Sc_Dg/The_Secret_Dungeon.php">Contenidos</a>
+            <li><a href="#">Contenidos</a>
             <ul>
               <li><a href="Noticias.php">Dialoguemos</a></li>
               <li><a href="Archivo.php">Archivo</a></li>
