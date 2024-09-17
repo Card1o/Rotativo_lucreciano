@@ -1,6 +1,6 @@
 <br>
 <section id="seccion1">
-<marquee bgcolor="#c0d860 "><strong>ARTICULOS INFORMATIVOS</strong></marquee>
+<marquee<strong>ARTICULOS INFORMATIVOS</strong></marquee>
 <div id="espacio">
 
 <?php 
@@ -22,7 +22,7 @@
    
 
 <section id="seccion4">
-<marquee bgcolor="#604848"><strong class="aldia">LUCRECIO AL DIA</strong></marquee>
+<marquee><strong class="aldia">LUCRECIO AL DIA</strong></marquee>
   <div class="titular">
   <?php 
         $query = "SELECT * FROM publicacion";
@@ -48,32 +48,25 @@
 
 </section>
 <section id="seccion2">
-<marquee bgcolor="#607848"><strong>CREACIÓN LITERARIA</strong></marquee>
-<div id="espacio">
-  <article class="article1">
-<p align="center"><b> Poema por <em>Mariana Prado 8-3</em> </b></p>
-<h3 align="center">LA FLOR DE LOTO</h3>
-<p align="center">
-    En aguas quietas nace flor sagrada,
-    <br>del barro oscuro surge pura y clara,
-    <br>su escencia mística el alma calma
-    <br>En cada pétalo luz revelada
-    <br><br>
-    <br>Sus hojas verdes, calma relajada,
-    <br>de la mañana al sol que la prepara
-    <br>su suave aroma el aire repara
-    <br>belleza eterna, nunca manchada
-    <br><br>
-    <br>Flor de loto, simbolo de pureza
-    <br>en tus pétalos guardas la promesa,
-    <br>de elevarse sobre la adversidad
-    <br><br>
-    <br>En tí encuentro paz y fortaleza
-    <br>reflejo de un espiritu de nobleza
-    <br>flor que del lodo alcanza la verdad
+<marquee><strong>CREACIÓN LITERARIA</strong></marquee>
 
-</p>
-  </article>
+<div class="titular">
+  <?php 
+        $query = "SELECT * FROM literaria";
+        $result_ = mysqli_query($conexion, $query);
+
+        while($row = mysqli_fetch_array($result_)){?>
+      <div class="tarjeta_informativa">
+        
+        <p><?php echo $row['autor'] ?></p>
+        <h2><?php echo $row['titulo']?></h2>
+        <div>
+        <p><?php echo $row['descripcion']?></p>
+        </div>
+      </div>
+<?php }?>
+  
+  </div>
     <br>
     <br>
     <article class="article2">
