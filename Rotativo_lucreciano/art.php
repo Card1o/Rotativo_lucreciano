@@ -1,7 +1,7 @@
 <?php include("includes/header3.php"); ?>
 <br>
 <section>
-<h2 align="center"><strong>OBRAS DE LA GALERÍA</strong></h2>
+<h2><strong>OBRAS DE LA GALERÍA</strong></h2>
 
 
 <div class="galeria">
