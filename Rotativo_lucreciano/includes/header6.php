@@ -41,8 +41,8 @@
               </script>
             
       
-      <li style="float:right"><a href="Perfil.php"><img src="img/perfilY.png" width="40"height="40"> Admin </a></li>            </li>
-      <li style="float:right"><a href="darck/DC_index.php"><img src="img/lunu.png" width="35"height="35"></a></li>
+      <li><a href="Perfil.php"><img src="img/perfilY.png" width="40"height="40"> Admin </a></li>            </li>
+      <li><a href="darck/DC_index.php"><img src="img/lunu.png" width="35"height="35"></a></li>
           </ul>
         </nav>
       </header>

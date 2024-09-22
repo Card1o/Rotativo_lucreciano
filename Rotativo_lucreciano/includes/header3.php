@@ -24,9 +24,9 @@
 
             </ul>
             <li><a href="https://issuu.com/gacetaljv/docs/junio_2024_-_gaceta_escolar_no._1">Gaceta Escolar</a>
-            <li style="float:right"><a href="administrador/login.php"><img src="img/perfilY.png" width="40"height="40"> Admin </a></li>
-            <li style="float:right">
-            <li style="float:right"> <a href="relog.php"><span id="fecha"></span></a></li>
+            <li><a href="administrador/login.php"><img src="img/perfilY.png" width="40"height="40"> Admin </a></li>
+            <li>
+            <li> <a href="relog.php"><span id="fecha"></span></a></li>
             <script>
               
               function mostrarFecha() {
@@ -45,7 +45,7 @@
           </script>
       
             </li>
-            <li style="float:right">
+            <li>
 <div id="container">
   <div class="toggle">
     

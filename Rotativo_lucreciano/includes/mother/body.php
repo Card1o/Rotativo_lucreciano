@@ -70,10 +70,10 @@
     <br>
     <br>
     <article class="article2">
-    <h2 align="center"><b>LA SILLA BAJO EL SOL</b></h2>
-      <p align="center"><b> Capitulo 1:<em> Robo </em> </b></p>
+    <h2><b>LA SILLA BAJO EL SOL</b></h2>
+      <p><b> Capitulo 1:<em> Robo </em> </b></p>
       
-      <p align="center">En una mañana caliente, cerca de una panadería, había un filósofo sentado en una silla. Una silla al igual que todas las demás. La única diferencia es que era la única silla bajo el sol. 
+      <p>En una mañana caliente, cerca de una panadería, había un filósofo sentado en una silla. Una silla al igual que todas las demás. La única diferencia es que era la única silla bajo el sol. 
         <br>
         <br>La silla bajo el sol, capítulo uno. Robo. Mientras estaba tranquilamente comiendo, logra ver como una joven estudiante está comprando algo en la panadería, cuando pasa otro joven alrededor de ella y toma su bolso. Sale corriendo, era claramente un hurto. La joven sale corriendo detrás de él, con lágrimas en los ojos, cubierta de pánico, al mismo tiempo que otros hombres mayores, cerca del lugar, empezaron a perseguir al muchacho. El muchacho corre, cruza la calle sin importar los autos, sin importarle su vida, con tal de lograr su objetivo. Todos los hombres mayores van en busca de atraparlo. El muchacho suelta el bolso y corre en dirección opuesta. Este fue un casi robo. La muchacha no sufrió heridas y no fue hurtada. Todas sus pertenencias seguían allí, pero de igual modo el impacto está ahí. De haber estado sola que hubiera pasado; hace rato la vi bajarse del bus, seguramente estaba sola y no tendría forma de volver a casa; se quedaría atrapada en este lugar alejado. 
         <br>
@@ -145,16 +145,16 @@
 </a>
 
   <div id="reflexion">
-      <h3 align="center"> REFLEXIÓN</h3>
+      <h3>REFLEXIÓN</h3>
   <br>
-  <p align="center"> El filósofo reflexionaba sobre la naturaleza humana y la violencia en la sociedad. Se preguntaba por qué algunas personas recurren al robo y la violencia para conseguir lo que quieren, y por qué otros se sienten en la obligación de tomar justicia por mano propia. Él sabía que la violencia solo genera más violencia, y que la justicia por mano propia solo perpetúa el ciclo de la venganza. Por eso, decidió no intervenir en el robo, ya que sabía que los ancianos perseguirían al joven y lo castigarían de manera violenta. En lugar de eso, decidió reflexionar sobre la situación y buscar una solución pacífica y justa para todos.</p>
+  <p> El filósofo reflexionaba sobre la naturaleza humana y la violencia en la sociedad. Se preguntaba por qué algunas personas recurren al robo y la violencia para conseguir lo que quieren, y por qué otros se sienten en la obligación de tomar justicia por mano propia. Él sabía que la violencia solo genera más violencia, y que la justicia por mano propia solo perpetúa el ciclo de la venganza. Por eso, decidió no intervenir en el robo, ya que sabía que los ancianos perseguirían al joven y lo castigarían de manera violenta. En lugar de eso, decidió reflexionar sobre la situación y buscar una solución pacífica y justa para todos.</p>
   <br>
   </div>
 <br>
 <br>
 
 <section>
-  <marquee bgcolor="#f0f0d8"><strong>RETO MENTAL</strong></marquee>
+  <marquee><strong>RETO MENTAL</strong></marquee>
   <br>
   <?php 
         $query = "SELECT * FROM reto_mental";
