@@ -1,6 +1,6 @@
 <br>
   <footer>
-  <button id="Bff"><a id="Bf" href="https://forms.gle/B4hELofEWQAxZ2jcA">
+  <button id="Bff"><a id="Bf" href="formulario.php">
   ENCUESTA
 </a></button>
     <p><strong>ENVIA TUS CREACIONES A NUESTRO CORREO O NÚMERO DE CONTACTO</strong></p>

@@ -24,7 +24,7 @@
             </ul>
             <li><a href="https://issuu.com/gacetaljv/docs/junio_2024_-_gaceta_escolar_no._1">Gaceta Escolar</a>
             <li> <a href="relog.php"><span id="fecha"></span></a></li>
-            <lia href="darck/DC_index.php"><img src="img/lunu.png" width="35"height="35"></a></li>
+            <li><a href="darck/DC_index.php"><img src="img/lunu.png" width="35"height="35"></a></li>
             <script>
               
               function mostrarFecha() {

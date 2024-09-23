@@ -22,7 +22,7 @@
               <li><a href="Reconocimientos.php">Reconocer</a></li>
 
             </ul>
-            <li><a href="https://issuu.com/gacetaljv/docs/junio_2024_-_gaceta_escolar_no._1">Gaceta Escolar</a>
+            <li class="head_right"><a href="https://issuu.com/gacetaljv/docs/junio_2024_-_gaceta_escolar_no._1">Gaceta Escolar</a>
           
             <script>
               
@@ -41,8 +41,8 @@
               </script>
             
       
-      <li><a href="Perfil.php"><img src="img/perfilY.png" width="40"height="40"> Admin </a></li>            </li>
-      <li><a href="darck/DC_index.php"><img src="img/lunu.png" width="35"height="35"></a></li>
+      <li class="head_right"><a href="Perfil.php"><img src="img/perfilY.png" width="40"height="40"> Admin </a></li>            </li>
+      <li class="head_right"><a href="darck/DC_index.php"><img src="img/lunu.png" width="35"height="35"></a></li>
           </ul>
         </nav>
       </header>
