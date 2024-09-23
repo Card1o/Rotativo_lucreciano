@@ -21,12 +21,11 @@
               <li><a href="Noticias.php">Dialoguemos</a></li>
               <li><a href="Archivo.php">Archivo</a></li>
               <li><a href="Reconocimientos.php">Reconocer</a></li>
-
             </ul>
             <li><a href="https://issuu.com/gacetaljv/docs/junio_2024_-_gaceta_escolar_no._1">Gaceta Escolar</a>
-            <li><a href="administrador/login.php"><img src="img/perfilY.png" width="40"height="40"> Admin </a></li>
-            <li>
-            <li> <a href="relog.php"><span id="fecha"></span></a></li>
+            <li class="head_right"><a href="administrador/login.php"><img src="img/perfilY.png" width="40"height="40"> Admin </a></li>
+            <li class="head_right">
+            <li class="head_right"><a href="relog.php"><span id="fecha"></span></a></li>
             <script>
               
               function mostrarFecha() {
@@ -45,7 +44,7 @@
           </script>
       
             </li>
-            <li>
+            <li class="head_right">
 <div id="container">
   <div class="toggle">
     

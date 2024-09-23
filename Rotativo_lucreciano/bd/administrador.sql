@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-09-2024 a las 14:25:46
+-- Tiempo de generación: 23-09-2024 a las 16:57:55
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.0.30
 
@@ -41,6 +41,22 @@ CREATE TABLE `archivo` (
 
 INSERT INTO `archivo` (`id`, `titulo`, `descripcion`, `imagen`, `fecha`) VALUES
 (1, 'Primera Plataforma Nacional de Telemedicina para Mejorar el Acceso a la Atención Médica', 'El lanzamiento de MedConnect incluye una colaboración entre el Ministerio de Salud, organizaciones no gubernamentales y empresas tecnológicas. La plataforma ha sido diseñada para ser accesible incluso en zonas con conexión a internet limitada, utilizando tecnología de compresión de datos para asegurar que los servicios estén disponibles en las regiones más remotas.  El Ministro de Salud, [Nombre del Ministro], destacó la importancia del proyecto: “MedConnect representa un gran avance en nuestro esfuerzo por garantizar que todos los ciudadanos, sin importar dónde vivan, tengan acceso a servicios médicos de calidad. Con esta plataforma, estamos eliminando barreras y llevando la atención médica a quienes más la necesitan.”', 0x6d65646963696e612e6a666966, '2024-09-23 12:08:29');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `formulario`
+--
+
+CREATE TABLE `formulario` (
+  `id` int(11) NOT NULL,
+  `correo` varchar(200) NOT NULL,
+  `comentario` varchar(200) NOT NULL,
+  `pregunta1` varchar(200) NOT NULL,
+  `pregunta2` varchar(200) NOT NULL,
+  `sugerencia` varchar(200) NOT NULL,
+  `falta?` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 -- --------------------------------------------------------
 
@@ -195,6 +211,12 @@ ALTER TABLE `archivo`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indices de la tabla `formulario`
+--
+ALTER TABLE `formulario`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `galeria`
 --
 ALTER TABLE `galeria`
@@ -245,6 +267,12 @@ ALTER TABLE `reto_mental`
 --
 ALTER TABLE `archivo`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT de la tabla `formulario`
+--
+ALTER TABLE `formulario`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `galeria`

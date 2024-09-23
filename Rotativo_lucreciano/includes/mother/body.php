@@ -1,6 +1,6 @@
 <br>
 <section id="seccion1">
-<marquee<strong>ARTICULOS INFORMATIVOS</strong></marquee>
+<marquee><strong>ARTICULOS INFORMATIVOS</strong></marquee>
 <div id="espacio">
 
 <?php 
@@ -60,27 +60,15 @@
         
         <p><?php echo $row['autor'] ?></p>
         <h2><?php echo $row['titulo']?></h2>
-        <div>
+          <div>
         <p><?php echo $row['descripcion']?></p>
-        </div>
+          </div>
       </div>
-<?php }?>
+  <?php }?>
   
-  </div>
-    <br>
-    <br>
-    <article class="article2">
-    <h2><b>LA SILLA BAJO EL SOL</b></h2>
-      <p><b> Capitulo 1:<em> Robo </em> </b></p>
-      
-      <p>En una mañana caliente, cerca de una panadería, había un filósofo sentado en una silla. Una silla al igual que todas las demás. La única diferencia es que era la única silla bajo el sol. 
-        <br>
-        <br>La silla bajo el sol, capítulo uno. Robo. Mientras estaba tranquilamente comiendo, logra ver como una joven estudiante está comprando algo en la panadería, cuando pasa otro joven alrededor de ella y toma su bolso. Sale corriendo, era claramente un hurto. La joven sale corriendo detrás de él, con lágrimas en los ojos, cubierta de pánico, al mismo tiempo que otros hombres mayores, cerca del lugar, empezaron a perseguir al muchacho. El muchacho corre, cruza la calle sin importar los autos, sin importarle su vida, con tal de lograr su objetivo. Todos los hombres mayores van en busca de atraparlo. El muchacho suelta el bolso y corre en dirección opuesta. Este fue un casi robo. La muchacha no sufrió heridas y no fue hurtada. Todas sus pertenencias seguían allí, pero de igual modo el impacto está ahí. De haber estado sola que hubiera pasado; hace rato la vi bajarse del bus, seguramente estaba sola y no tendría forma de volver a casa; se quedaría atrapada en este lugar alejado. 
-        <br>
-        <br>Pero quiero centrarme en el muchacho. Era un joven, alto, con una sudadera blanca, muy bien lavada y unos pantalones que no recuerdo muy bien. Tenía un gorro, de esos para el frío, pero no en la cara. No he intentado ocultar su identidad, solo era estilo. ¿Por qué un muchacho con ropas tan finas saldría a la calle a hurtar a una estudiante? Dudo que se haya visto en la necesidad de robar por el bien de su familia. Entonces, ¿cuál fue su motivación? De  este mundo es cruel y sin sentido, ¿Por qué tenemos que hacer más daño del que ya la propia naturaleza cruel del mundo y cruel de la sociedad nos ha hecho? El joven desapareció. Nadie alcanzó a herirlo. El filósofo pensaba que tal vez él pudo atraparlo cuando empezó a devolverse. Ya que pasó por enfrente de él, pero también pensó que no valía la pena, puesto que ya había soltado el bolso y obviamente también estaba cubierto de pánico; cuál... ¿conejo que acaba de ver a un zorro directamente a los ojos? Él pudo haberse puesto de pie y simplemente embestirlo, tirarlo al suelo e inmovilizarlo. Pero él sabía que esos ancianos iban a tomar justicia por mano propia y ese joven la iba a pasar muy mal, sin importar lo grave de su acto o su intención, ya que no logró concretar nada. Si ya hay una víctima, ¿por qué hay que tener dos?</p>
-      </article>  
-    </div>
-    </section>
+</div>
+</section>
+
 
     <a href="Art.php"><button>
   GALERIA DE ARTE
@@ -144,14 +132,6 @@
 </button>
 </a>
 
-  <div id="reflexion">
-      <h3>REFLEXIÓN</h3>
-  <br>
-  <p> El filósofo reflexionaba sobre la naturaleza humana y la violencia en la sociedad. Se preguntaba por qué algunas personas recurren al robo y la violencia para conseguir lo que quieren, y por qué otros se sienten en la obligación de tomar justicia por mano propia. Él sabía que la violencia solo genera más violencia, y que la justicia por mano propia solo perpetúa el ciclo de la venganza. Por eso, decidió no intervenir en el robo, ya que sabía que los ancianos perseguirían al joven y lo castigarían de manera violenta. En lugar de eso, decidió reflexionar sobre la situación y buscar una solución pacífica y justa para todos.</p>
-  <br>
-  </div>
-<br>
-<br>
 
 <section>
   <marquee><strong>RETO MENTAL</strong></marquee>
