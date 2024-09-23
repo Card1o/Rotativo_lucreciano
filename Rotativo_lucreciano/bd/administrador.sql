@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 12-09-2024 a las 15:08:29
+-- Tiempo de generación: 23-09-2024 a las 14:25:46
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.0.30
 
@@ -31,15 +31,16 @@ CREATE TABLE `archivo` (
   `id` int(11) NOT NULL,
   `titulo` varchar(200) NOT NULL,
   `descripcion` varchar(900) NOT NULL,
-  `imagen` blob NOT NULL
+  `imagen` blob NOT NULL,
+  `fecha` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
 --
 -- Volcado de datos para la tabla `archivo`
 --
 
-INSERT INTO `archivo` (`id`, `titulo`, `descripcion`, `imagen`) VALUES
-(1, 'Primera Plataforma Nacional de Telemedicina para Mejorar el Acceso a la Atención Médica', 'El lanzamiento de MedConnect incluye una colaboración entre el Ministerio de Salud, organizaciones no gubernamentales y empresas tecnológicas. La plataforma ha sido diseñada para ser accesible incluso en zonas con conexión a internet limitada, utilizando tecnología de compresión de datos para asegurar que los servicios estén disponibles en las regiones más remotas.  El Ministro de Salud, [Nombre del Ministro], destacó la importancia del proyecto: “MedConnect representa un gran avance en nuestro esfuerzo por garantizar que todos los ciudadanos, sin importar dónde vivan, tengan acceso a servicios médicos de calidad. Con esta plataforma, estamos eliminando barreras y llevando la atención médica a quienes más la necesitan.”', 0x6d65646963696e612e6a666966);
+INSERT INTO `archivo` (`id`, `titulo`, `descripcion`, `imagen`, `fecha`) VALUES
+(1, 'Primera Plataforma Nacional de Telemedicina para Mejorar el Acceso a la Atención Médica', 'El lanzamiento de MedConnect incluye una colaboración entre el Ministerio de Salud, organizaciones no gubernamentales y empresas tecnológicas. La plataforma ha sido diseñada para ser accesible incluso en zonas con conexión a internet limitada, utilizando tecnología de compresión de datos para asegurar que los servicios estén disponibles en las regiones más remotas.  El Ministro de Salud, [Nombre del Ministro], destacó la importancia del proyecto: “MedConnect representa un gran avance en nuestro esfuerzo por garantizar que todos los ciudadanos, sin importar dónde vivan, tengan acceso a servicios médicos de calidad. Con esta plataforma, estamos eliminando barreras y llevando la atención médica a quienes más la necesitan.”', 0x6d65646963696e612e6a666966, '2024-09-23 12:08:29');
 
 -- --------------------------------------------------------
 
@@ -69,7 +70,7 @@ INSERT INTO `galeria` (`id`, `persona`, `imagen`) VALUES
 CREATE TABLE `literaria` (
   `id` int(11) NOT NULL,
   `titulo` varchar(200) NOT NULL,
-  `persona` varchar(100) NOT NULL,
+  `autor` varchar(100) NOT NULL,
   `descripcion` varchar(900) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
 
@@ -77,8 +78,10 @@ CREATE TABLE `literaria` (
 -- Volcado de datos para la tabla `literaria`
 --
 
-INSERT INTO `literaria` (`id`, `titulo`, `persona`, `descripcion`) VALUES
-(2, 'LA FLOR DE LOTO', 'Poema por Mariana Prado', 'En aguas quietas nace flor sagrada, del barro oscuro surge pura y clara, su esencia mística el alma calma En cada pétalo luz revelada   Sus hojas verdes, calma relajada, de la mañana al sol que la prepara su suave aroma el aire repara belleza eterna, nunca manchada   Flor de loto, simbolo de pureza en tus pétalos guardas la promesa, de elevarse sobre la adversidad   En tí encuentro paz y fortaleza reflejo de un espiritu de nobleza flor que del lodo alcanza la verdad');
+INSERT INTO `literaria` (`id`, `titulo`, `autor`, `descripcion`) VALUES
+(2, 'LA FLOR DE LOTO', 'Poema por Mariana Prado', 'En aguas quietas nace flor sagrada, del barro oscuro surge pura y clara, su esencia mística el alma calma En cada pétalo luz revelada   Sus hojas verdes, calma relajada, de la mañana al sol que la prepara su suave aroma el aire repara belleza eterna, nunca manchada   Flor de loto, simbolo de pureza en tus pétalos guardas la promesa, de elevarse sobre la adversidad   En tí encuentro paz y fortaleza reflejo de un espiritu de nobleza flor que del lodo alcanza la verdad'),
+(3, 'LA SILLA BAJO EL SOL', 'Capitulo 1: Robo', 'En una mañana caliente, cerca de una panadería, había un filósofo sentado en una silla. Una silla al igual que todas las demás. La única diferencia es que era la única silla bajo el sol.\r\n\r\nLa silla bajo el sol, capítulo uno. Robo. Mientras estaba tranquilamente comiendo, logra ver como una joven estudiante está comprando algo en la panadería, cuando pasa otro joven alrededor de ella y toma su bolso. Sale corriendo, era claramente un hurto. La joven sale corriendo detrás de él, con lágrimas en los ojos, cubierta de pánico, al mismo tiempo que otros hombres mayores, cerca del lugar, empezaron a perseguir al muchacho. El muchacho corre, cruza la calle sin importar los autos, sin importarle su vida, con tal de lograr su objetivo. Todos los hombres mayores van en busca de atraparlo. El muchacho suelta el bolso y corre en dirección opuesta. Este fue un casi robo. La muchacha no sufrió heridas'),
+(5, 'REFLEXIÓN', '', 'El filósofo reflexionaba sobre la naturaleza humana y la violencia en la sociedad. Se preguntaba por qué algunas personas recurren al robo y la violencia para conseguir lo que quieren, y por qué otros se sienten en la obligación de tomar justicia por mano propia. Él sabía que la violencia solo genera más violencia, y que la justicia por mano propia solo perpetúa el ciclo de la venganza. Por eso, decidió no intervenir en el robo, ya que sabía que los ancianos perseguirían al joven y lo castigarían de manera violenta. En lugar de eso, decidió reflexionar sobre la situación y buscar una solución pacífica y justa para todos.');
 
 -- --------------------------------------------------------
 
@@ -253,7 +256,7 @@ ALTER TABLE `galeria`
 -- AUTO_INCREMENT de la tabla `literaria`
 --
 ALTER TABLE `literaria`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT de la tabla `login`

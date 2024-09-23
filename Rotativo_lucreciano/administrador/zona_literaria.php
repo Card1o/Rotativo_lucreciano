@@ -25,7 +25,7 @@
                         <input type="text" name="titulo" placeholder="Titulo de tu creación" autofocus>
                     </div>
                     <div class="grupo">
-                        <input type="text" name="persona" rows="3" placeholder="Escribe el nombre del creador">
+                        <input type="text" name="autor" rows="3" placeholder="Escribe el nombre del creador">
                     </div>
                     <div class="grupo">
                         <input type="text" name="descripcion" rows="3" placeholder="Escribe tu creación">
@@ -55,7 +55,7 @@
                         <tr>
                             <td><?php echo $row['id']?></td>
                             <td><?php echo $row['titulo']?></td>
-                            <td><?php echo $row['persona'] ?></td>
+                            <td><?php echo $row['autor'] ?></td>
                             <td><?php echo $row['descripcion']?></td>
                             <td>
                             <button class="Btn"  onclick="window.location.href='zona_literaria/editar.php?id=<?php echo $row['id']?>';">Editar
