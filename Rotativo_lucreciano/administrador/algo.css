@@ -170,10 +170,7 @@ tbody td {
 
 
 #imagenes{
-    padding-left:41px;
-    display:inline-block;
-    transform:translatex(0px) translatey(0px) !important;
-    width:281px;
+    width: 300px;
    }
 
 /* Espacio para los botones */

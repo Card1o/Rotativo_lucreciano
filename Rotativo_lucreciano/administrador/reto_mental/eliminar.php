@@ -8,6 +8,6 @@ if (isset($_GET['id'])){
     if (!$result) {
         die("Query Failed");
     }
-    header("Location: ../creacion.php");
+    header("Location: ../reto_mental.php");
 }
 ?>

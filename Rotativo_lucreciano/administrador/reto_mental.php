@@ -50,7 +50,7 @@
                         <tr>
                             <td><?php echo $row['id']?></td>
                             <td><?php echo $row['reto']?></td>
-                            <td><img src="img/<?php echo $row['imagen']?>" id="imagenes"></td>
+                            <td><img src="reto_mental/mostrar_imagen.php?id=<?php echo $row['id']; ?>" id="imagenes"></td>
                             <td>
                             <button class="noselect" onclick="window.location.href='reto_mental/eliminar.php?id=<?php echo $row['id']?>';">
                                 <span class="text">Eliminar</span><span class="icon">

@@ -5,25 +5,15 @@
 
 
 <div class="galeria">
-        <div class="imagen">
-            <img src="img/obras/art_001.jpeg" alt="Imagen 1">
-            <h3></h3>
-        </div>
-        <div class="imagen">
-            <img src="img/obras/art_002.jpeg" alt="Imagen 2">
-            <h3></h3>
-        </div>
-        <div class="imagen">
-            <img src="img/obras/art_003.jpeg" alt="Imagen 2">
-            <h3></h3>
-        </div>
-        <div class="imagen">
-            <img src="img/obras/art_004.jpeg" alt="Imagen 2">
-            <h3></h3>
-        </div>
-        <div class="imagen">
-            <img src="img/obras/art_005.jpeg" alt="Imagen 2">
-            <h3></h3>
-        </div>
-    </div>
+<?php 
+        $query = "SELECT * FROM galeria";
+        $result_ = mysqli_query($conexion, $query);
+
+        while($row = mysqli_fetch_array($result_)){?>
+      <div class="imagen">
+        <p><?php echo $row['persona']; ?></p>
+      <img src="administrador/galeria_virtual/mostrar_imagen.php?id=<?php echo $row['id']; ?>" id="imagenes">
+      </div>
+            <?php } ?>
+</div>
 <?php include("includes/footer.php"); ?>
