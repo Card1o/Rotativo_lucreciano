@@ -7,7 +7,7 @@ body {
   background-position: center center;
 }
 body.active {
-  background-image: url(../img/DC_img/FondoOscuro.png);
+  background-image: url(../img/Fondo_Oscuro.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -130,6 +130,8 @@ nav>ul>li:hover>ul{
 nav>ul>li>ul>a:hover{
 background-color: #46B941;
 }
+
+/* BOTON DARKMODE */
 #container {
   background-color: #cecece;
   position: relative;
@@ -158,10 +160,28 @@ background-color: #46B941;
 left:40px;
 }
 
+/*botones del header que queriamos en la parte derecha*/
 .head_right{
   float: right;
 }
 
+/*edición de los colores de las marqueesinas*/
+
+#marquee_personeria{
+  background-color: #2affbf;
+}
+
+#marquee_lucrecio_al_dia{
+  background-color: #007c5d;
+}
+
+#marquee_creacion_literaria{
+  background-color: #FFDB58;
+}
+
+#marquee_reto_mental{
+  background-color: #46B941;
+}
 /* SECCION 1  Plancha*/
 strong {
   font-family: Arial, Helvetica, sans-serif;
@@ -181,6 +201,7 @@ line-height:39.4px !important;
 font-size:27px !important;
 font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;
 }
+
 section section marquee strong{
   font-family:'Alfa Slab One', display;
 }
@@ -211,14 +232,14 @@ section section marquee strong{
 #fondo {
   width: 100%;
   padding-top:5px !important;
-}
+} 
 
 
 section>h2 {
   font-size: 24px;
   margin-bottom: 10px;
   font-family:'Alef', sans-serif;
-  color:#5e28289a !important;
+  color:#5e282893 !important;
 
 }
 #espacio{
@@ -348,7 +369,7 @@ span#fecha {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 20px;
-  background-color:#604848;
+  background-color:#7046469a;
 }
 /* GALERIA */
 
@@ -523,16 +544,16 @@ button:hover .icon-3 {
 /* ZONA RETOS MENTALES */
 
 #reto{
-  background-color: #704646ea;
-  height: 300px ;
+  background-color: #7046469a;
+  height: 275px ;
   display: block;
   margin: 5% 40%;
-  align-content: center ;
+  float: left;
+  padding: 20px;
 }
 
 #reto img{
   height: 275px;
-  margin-left: 8px;
 }
 
 /* FOOTER */
@@ -678,40 +699,4 @@ input[type="submit"]:hover {
   background-color: #2affbf;
 }
 
-
-/* BOTON DARKMODE */
-#container {
-  background-color: #cecece;
-  position: relative;
-  width:80px ;
-  height: 40px;
-  box-shadow: inset 4px 4px 6px #cecece,
-              inset -4px -4px 6px #Fff;
-  margin-top: 10px;
-  border-radius: 25px;
-  cursor: pointer; 
-
-}
-.toggle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  transform: scale(.7);
-  background-color: linear-gradient(145deg, #000000, #FFFFFF  );
-  border-radius: 25px;
-  box-shadow: 3px 3px 8px #777676,
-              -3px -3px 8px #fff;
-}
-#container.active .toggle {
-left:40px;
-}
-body.active {
-  background-image: url(../img/Fondo_Oscuro.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-}
 

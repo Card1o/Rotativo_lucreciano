@@ -1,6 +1,6 @@
 <br>
 <section id="seccion1">
-<marquee><strong>ARTICULOS INFORMATIVOS</strong></marquee>
+<marquee id="marquee_personeria"><strong>ARTICULOS INFORMATIVOS</strong></marquee>
 <div id="espacio">
 
 <?php 
@@ -22,7 +22,7 @@
    
 
 <section id="seccion4">
-<marquee><strong class="aldia">LUCRECIO AL DIA</strong></marquee>
+<marquee id="marquee_lucrecio_al_dia"><strong class="aldia">LUCRECIO AL DIA</strong></marquee>
   <div class="titular">
   <?php 
         $query = "SELECT * FROM publicacion";
@@ -48,7 +48,7 @@
 
 </section>
 <section id="seccion2">
-<marquee><strong>CREACIÓN LITERARIA</strong></marquee>
+<marquee id="marquee_creacion_literaria"><strong>CREACIÓN LITERARIA</strong></marquee>
 
 <div class="titular">
   <?php 
@@ -134,7 +134,7 @@
 
 
 <section>
-  <marquee><strong>RETO MENTAL</strong></marquee>
+  <marquee id="marquee_reto_mental"><strong>RETO MENTAL</strong></marquee>
   <br>
   <?php 
         $query = "SELECT * FROM reto_mental";
