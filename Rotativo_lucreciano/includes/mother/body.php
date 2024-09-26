@@ -142,7 +142,8 @@
 
         while($row = mysqli_fetch_array($result_)){?>
       <div id="reto">
-        <img src="administrador/img/<?php echo $row['imagen']?>">
+        <p><?php echo $row['reto']; ?></p>
+      <img src="administrador/reto_mental/mostrar_imagen.php?id=<?php echo $row['id']; ?>" id="imagenes">
       </div>
 <?php }?>
 </section>

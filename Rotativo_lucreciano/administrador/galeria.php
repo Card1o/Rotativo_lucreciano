@@ -51,7 +51,7 @@
                         <tr>
                             <td><?php echo $row['id']?></td>
                             <td><?php echo $row['persona']?></td>
-                            <td><img src="img/<?php echo $row['imagen']?>" id="imagenes"></td>
+                            <td><img src="galeria_virtual/mostrar_imagen.php?id=<?php echo $row['id']; ?>" id="imagenes"></td>
                             <td>
                             <button class="noselect" onclick="window.location.href='galeria_virtual/eliminar.php?id=<?php echo $row['id']?>';">
                                 <span class="text">Eliminar</span><span class="icon">
