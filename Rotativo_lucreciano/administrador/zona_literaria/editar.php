@@ -8,7 +8,7 @@ if(isset($_GET['id'])) {
     if (mysqli_num_rows($result) == 1){
         $row = mysqli_fetch_array($result);
         $titulo = $row['titulo'];
-        $persona = $row['persona'];
+        $autor = $row['autor'];
         $descripcion = $row['descripcion'];
 
     }
@@ -17,10 +17,10 @@ if(isset($_GET['id'])) {
 if(isset($_POST['update'])){
     $id = $_GET['id'];
     $titulo = $_POST['titulo'];
-    $persona = $_POST['persona'];
+    $autor = $_POST['autor'];
     $descripcion = $_POST['descripcion'];
 
-    $query = "UPDATE literaria set titulo = '$titulo', persona = '$persona', descripcion = '$descripcion' WHERE id = $id";
+    $query = "UPDATE literaria set titulo = '$titulo', autor = '$autor', descripcion = '$descripcion' WHERE id = $id";
     mysqli_query($conexion, $query);
     header("Location: ../zona_literaria.php");
 }
@@ -53,7 +53,7 @@ if(isset($_POST['update'])){
                     </div>
                     <br>
                     <div class="grupo">
-                        <input type="text" name="persona" value="<?php echo $persona; ?>" placeholder="Actualiza la persona"></input>
+                        <input type="text" name="autor" value="<?php echo $autor; ?>" placeholder="Actualiza la persona"></input>
                     </div>
                     <br>
                     <div class="grupo">
