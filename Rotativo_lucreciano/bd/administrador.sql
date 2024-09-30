@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-09-2024 a las 16:42:55
+-- Tiempo de generación: 30-09-2024 a las 15:30:03
 -- Versión del servidor: 10.4.32-MariaDB
--- Versión de PHP: 8.2.12
+-- Versión de PHP: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -40,7 +40,8 @@ CREATE TABLE `archivo` (
 --
 
 INSERT INTO `archivo` (`id`, `titulo`, `descripcion`, `imagen`, `fecha`) VALUES
-(1, 'Primera Plataforma Nacional de Telemedicina para Mejorar el Acceso a la Atención Médica', 'El lanzamiento de MedConnect incluye una colaboración entre el Ministerio de Salud, organizaciones no gubernamentales y empresas tecnológicas. La plataforma ha sido diseñada para ser accesible incluso en zonas con conexión a internet limitada, utilizando tecnología de compresión de datos para asegurar que los servicios estén disponibles en las regiones más remotas.  El Ministro de Salud, [Nombre del Ministro], destacó la importancia del proyecto: “MedConnect representa un gran avance en nuestro esfuerzo por garantizar que todos los ciudadanos, sin importar dónde vivan, tengan acceso a servicios médicos de calidad. Con esta plataforma, estamos eliminando barreras y llevando la atención médica a quienes más la necesitan.”', 0x6d65646963696e612e6a666966, '2024-09-23 12:08:29');
+(1, 'Primera Plataforma Nacional de Telemedicina para Mejorar el Acceso a la Atención Médica', 'El lanzamiento de MedConnect incluye una colaboración entre el Ministerio de Salud, organizaciones no gubernamentales y empresas tecnológicas. La plataforma ha sido diseñada para ser accesible incluso en zonas con conexión a internet limitada, utilizando tecnología de compresión de datos para asegurar que los servicios estén disponibles en las regiones más remotas.  El Ministro de Salud, [Nombre del Ministro], destacó la importancia del proyecto: “MedConnect representa un gran avance en nuestro esfuerzo por garantizar que todos los ciudadanos, sin importar dónde vivan, tengan acceso a servicios médicos de calidad. Con esta plataforma, estamos eliminando barreras y llevando la atención médica a quienes más la necesitan.”', 0x6d65646963696e612e6a666966, '2024-09-23 12:08:29'),
+(2, 'OSWALD', '', '', '2024-09-30 13:16:22');
 
 -- --------------------------------------------------------
 
@@ -106,7 +107,8 @@ CREATE TABLE `literaria` (
 INSERT INTO `literaria` (`id`, `titulo`, `autor`, `descripcion`) VALUES
 (2, 'LA FLOR DE LOTO', 'Poema por Mariana Prado', 'En aguas quietas nace flor sagrada, del barro oscuro surge pura y clara, su esencia mística el alma calma En cada pétalo luz revelada   Sus hojas verdes, calma relajada, de la mañana al sol que la prepara su suave aroma el aire repara belleza eterna, nunca manchada   Flor de loto, simbolo de pureza en tus pétalos guardas la promesa, de elevarse sobre la adversidad   En tí encuentro paz y fortaleza reflejo de un espiritu de nobleza flor que del lodo alcanza la verdad'),
 (3, 'LA SILLA BAJO EL SOL', 'Capitulo 1: Robo', 'En una mañana caliente, cerca de una panadería, había un filósofo sentado en una silla. Una silla al igual que todas las demás. La única diferencia es que era la única silla bajo el sol.\r\n\r\nLa silla bajo el sol, capítulo uno. Robo. Mientras estaba tranquilamente comiendo, logra ver como una joven estudiante está comprando algo en la panadería, cuando pasa otro joven alrededor de ella y toma su bolso. Sale corriendo, era claramente un hurto. La joven sale corriendo detrás de él, con lágrimas en los ojos, cubierta de pánico, al mismo tiempo que otros hombres mayores, cerca del lugar, empezaron a perseguir al muchacho. El muchacho corre, cruza la calle sin importar los autos, sin importarle su vida, con tal de lograr su objetivo. Todos los hombres mayores van en busca de atraparlo. El muchacho suelta el bolso y corre en dirección opuesta. Este fue un casi robo. La muchacha no sufrió heridas'),
-(5, 'REFLEXIÓN', '', 'El filósofo reflexionaba sobre la naturaleza humana y la violencia en la sociedad. Se preguntaba por qué algunas personas recurren al robo y la violencia para conseguir lo que quieren, y por qué otros se sienten en la obligación de tomar justicia por mano propia. Él sabía que la violencia solo genera más violencia, y que la justicia por mano propia solo perpetúa el ciclo de la venganza. Por eso, decidió no intervenir en el robo, ya que sabía que los ancianos perseguirían al joven y lo castigarían de manera violenta. En lugar de eso, decidió reflexionar sobre la situación y buscar una solución pacífica y justa para todos.');
+(5, 'REFLEXIÓN', '', 'El filósofo reflexionaba sobre la naturaleza humana y la violencia en la sociedad. Se preguntaba por qué algunas personas recurren al robo y la violencia para conseguir lo que quieren, y por qué otros se sienten en la obligación de tomar justicia por mano propia. Él sabía que la violencia solo genera más violencia, y que la justicia por mano propia solo perpetúa el ciclo de la venganza. Por eso, decidió no intervenir en el robo, ya que sabía que los ancianos perseguirían al joven y lo castigarían de manera violenta. En lugar de eso, decidió reflexionar sobre la situación y buscar una solución pacífica y justa para todos.'),
+(6, 'OSWALD               Introducción', 'David Gómez Piedrahita                  ', 'A los alrededores del puerto Armadillo muchos comerciantes acostumbraban a establecer sus puestos de venta; el más amado y concurrido era el de doña Magda Marleen y sus dos hijos, GIlver y Evan, que, pese a se casi igual de imprudentes, uno de ellos era más inteligente que Gilver, ¡Claro! sin mencionar nombres...');
 
 -- --------------------------------------------------------
 
@@ -145,7 +147,8 @@ CREATE TABLE `personeria` (
 --
 
 INSERT INTO `personeria` (`id`, `titulo`, `descripcion`, `imagen`) VALUES
-(1, 'INFORMACIÓN CONTRALORÍA', 'El bazar del día de la familia (20 de Julio) será para conseguir mesas metalicas para los quioscos', 0x436f6e7472616c6f722e706e67);
+(1, 'INFORMACIÓN CONTRALORÍA', 'El bazar del día de la familia (20 de Julio) será para conseguir mesas metalicas para los quioscos', 0x436f6e7472616c6f722e706e67),
+(2, 'INFORMACION DE LA PERSONERIA', 'Hemos realizado ya varios de nuestros eventos de limpieza, que han podido mejorar nustros espacios escolares', 0x506572736f6e65726f2e706e67);
 
 -- --------------------------------------------------------
 
@@ -165,7 +168,6 @@ CREATE TABLE `publicacion` (
 --
 
 INSERT INTO `publicacion` (`id`, `titulo`, `descripcion`, `imagen`) VALUES
-(1, 'Descubren que los patos pueden comunicarse con los humanos a través de un lenguaje secreto de cuac', ' Claro, aquí tienes una noticia falsa:  \"Descubren que los patos pueden comunicarse con los humanos a través de un lenguaje secreto de cuac\"  En un sorprendente giro de los acontecimientos, un grupo de investigadores de la Universidad de la Imaginación ha revelado que los patos han desarrollado un lenguaje secreto basado en una serie de cuac-cuac especiales que sólo los humanos pueden descifrar. Según el estudio, los patos utilizan este lenguaje para discutir temas tan diversos como el clima, el estado de los estanques y, sorprendentemente, sus preferencias culinarias.  Los científicos explican que, con un poco de entrenamiento, los humanos pueden aprender a entender los mensajes complejos que los patos envían entre sí. Los primeros experimentos mostraron que, cuando se les habla en el lenguaje de los patos, estos responden con una mezcla de cuacs que corresponden a afirmaciones, pregunt', 0x64657363617267612e6a666966),
 (3, ' Nuevas Medidas de Protección Ambiental en la Ciudad: Una Iniciativa para Combatir el Cambio Climático', 'A partir del próximo mes, se establecerán zonas de bajas emisiones en el centro de la ciudad, donde se restringirá el acceso a vehículos que no cumplan con los estándares de emisiones más estrictos. Además, se lanzará una nueva red de transporte público eléctrico que conectará los principales barrios y zonas industriales, con el objetivo de reducir la dependencia de los vehículos privados y disminuir la contaminación del aire.  El plan también contempla la creación de 50 nuevas áreas verdes en zonas urbanas densamente pobladas, que incluirán parques y jardines comunitarios. Estas áreas no solo servirán como pulmones verdes, sino que también proporcionarán espacios recreativos para los residentes y fomentarán la biodiversidad local.', 0x616d6269656e74652e6a666966),
 (4, 'Innovadora Tecnología de Energía Solar Lleva Electricidad a Comunidades Rurales', ' El sistema, conocido como SolarConnect, está compuesto por paneles solares que capturan la energía del sol durante el día y la almacenan en baterías para su uso durante la noche. La tecnología también incluye un software de gestión inteligente que optimiza el uso de la energía y minimiza las pérdidas. Este enfoque integral ha demostrado ser capaz de generar suficiente electricidad para abastecer a viviendas, escuelas y centros de salud en comunidades que anteriormente dependían de fuentes de energía ineficientes y costosas, como generadores diésel.  La primera fase de implementación del proyecto ha comenzado en las regiones de [Nombre de las Regiones], donde ya se han instalado más de 500 sistemas solares. La respuesta de las comunidades ha sido positiva, con residentes informando mejoras significativas en la calidad de vida, incluyendo el acceso a luz eléctrica en el hogar y la posibil', 0x73697374656d615f616d6269656e74616c2e6a666966),
 (5, 'Primera Plataforma Nacional de Telemedicina para Mejorar el Acceso a la Atención Médica', 'El lanzamiento de MedConnect incluye una colaboración entre el Ministerio de Salud, organizaciones no gubernamentales y empresas tecnológicas. La plataforma ha sido diseñada para ser accesible incluso en zonas con conexión a internet limitada, utilizando tecnología de compresión de datos para asegurar que los servicios estén disponibles en las regiones más remotas.  El Ministro de Salud, [Nombre del Ministro], destacó la importancia del proyecto: “MedConnect representa un gran avance en nuestro esfuerzo por garantizar que todos los ciudadanos, sin importar dónde vivan, tengan acceso a servicios médicos de calidad. Con esta plataforma, estamos eliminando barreras y llevando la atención médica a quienes más la necesitan.”', 0x6d65646963696e612e6a666966);
@@ -276,7 +278,7 @@ ALTER TABLE `reto_mental`
 -- AUTO_INCREMENT de la tabla `archivo`
 --
 ALTER TABLE `archivo`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `formulario`
@@ -294,7 +296,7 @@ ALTER TABLE `galeria`
 -- AUTO_INCREMENT de la tabla `literaria`
 --
 ALTER TABLE `literaria`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `login`
@@ -306,7 +308,7 @@ ALTER TABLE `login`
 -- AUTO_INCREMENT de la tabla `personeria`
 --
 ALTER TABLE `personeria`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `publicacion`
