@@ -544,16 +544,18 @@ button:hover .icon-3 {
 /* ZONA RETOS MENTALES */
 
 #reto{
+  width: 40%;
   background-color: #7046469a;
   height: 275px ;
   display: block;
-  margin: 5% 40%;
+  margin: 5% 30%; 
   float: left;
   padding: 20px;
 }
 
 #reto img{
-  height: 275px;
+  width: 100%;
+  max-height: 90%;
 }
 
 /* FOOTER */

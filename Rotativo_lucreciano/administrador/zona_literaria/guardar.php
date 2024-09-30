@@ -21,6 +21,15 @@ if (isset($_POST['guardar'])){
                 }
             header('Location: ../zona_literaria.php');
 
-         }
+         
+
+         $query = "INSERT INTO archivo(titulo, descripcion) VALUES ('$titulo', '$descripcion')";
+        $resultado = mysqli_query($conexion, $query);
+            if (!$resultado){
+                 die("Query Failed");
+                }
+            header('Location: ../zona_literaria.php');
+
+            }
 
 ?>
