@@ -55,7 +55,7 @@
                             <td><?php echo $row['id']?></td>
                             <td><?php echo $row['titulo']?></td>
                             <td><?php echo $row['descripcion']?></td>
-                            <td><img src="img/<?php echo $row['imagen']?>" id="imagenes"></td>
+                            <td><img src="reconocimientos/mostrar_imagen.php?id=<?php echo $row['id']; ?>" id="imagenes"></td>
                             <td>
                             <button class="Btn"  onclick="window.location.href='reconocimientos/editar.php?id=<?php echo $row['id']?>';">Editar
       <svg class="svg" viewBox="0 0 512 512">
