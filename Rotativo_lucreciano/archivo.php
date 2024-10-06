@@ -9,7 +9,7 @@
         $result_ = mysqli_query($conexion, $query);
 
         while($row = mysqli_fetch_array($result_)){?>
-      <div class="tarjeta_informativa">
+      <div class="tarjeta_origins">
         
         <img src="administrador/img/<?php echo $row['imagen']?>">
         <h2><?php echo $row['titulo']?></h2>
