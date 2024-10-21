@@ -665,23 +665,23 @@ section section footer{
 
 /*Encuesta sobre la pagina formulario */
 form{
-  width: 400px;
+  width: 90%;
+  max-width: 400px;
   position:relative;
   background-color: #fffb0054;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin: 10% 35%;
+padding: 30px;
+  margin: 10% auto;
 }
 label {
   margin-top: 10px;
   display: block;
 }
 textarea {
-  width: 90%;
+  width: 100%;
   height: 100px;
 }
 input[type="email"], input[type="text"] {
-  width: 90%;
+  width: 100%;
   padding: 8px;
   margin-top: 5px;
 }

@@ -1,5 +1,5 @@
 <?php include('includes/header3.php');?>
-<form action="#" method="post">
+<form action="administrador/formulario/guardar.php" method="post">
     <label for="email">Correo electrónico</label>
     <input type="email" id="email" name="email" required>
 
@@ -21,6 +21,6 @@
     <label for="missing">¿Consideras que algo falta?</label>
     <textarea id="missing" name="missing"></textarea>
 
-    <input type="submit" value="Enviar">
+    <input type="submit" value="Enviar" name="enviar">
 </form>
 <?php include('includes/footer.php');?>
